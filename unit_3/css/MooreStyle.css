@@ -5,14 +5,14 @@
 
 body	{
 	font-family: sans-serif;
-	background-color: #500A16;
+	background-image: url ('images/lace.jpg');
 	font-size: 20px;
 	color: #cfb53b;
 	line-height: 1.5;
 }
 
 header	{
-	background: #00165A;
+	background: #5A0016;
 	padding: 10px;
 	text-align: center;
 	font-family: helvetica;
@@ -24,23 +24,20 @@ main 	{
 h1	{
 	font-size: 80px;
 	color: #cfb53b;
-	font-family: cursive, helvetica;
-	font-style: italic;
-}
-
-h2	{
-	padding: 40px;
+	font-family: Amatic SC, cursive;
+	letter-spacing: 20px;
 }
 
 h4	{
-	padding: 20px;
+	padding: 10px;
 	color: #cfb53b;
+	font-family: serif;
 }
 
 nav a 	{
 	color: #ffffff;
 	text-decoration: none;
-	padding: 140px;
+	padding: 10px;
 }
 
 a 	{
@@ -50,6 +47,12 @@ a 	{
 
 img	{
 	width: 20%;
+}
+
+p {
+	font-size:18px;
+	line-height: 2em;
+	margin: 2em;
 }
 
 footer	{

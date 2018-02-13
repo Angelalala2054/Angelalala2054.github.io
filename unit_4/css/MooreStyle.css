@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cookie|Dancing+Script');
+*	{
+	padding: 0;
+	margin: 0;
+}
+
+body	{
+	font-family: cookie, sans-serif;
+	background-image: url("lace3.jpg");
+	background-attachment: fixed;
+	font-size: 1vw;
+	color: #cfb53b;
+}
+
+header	{
+	background: #5A0016;
+	text-align: center;
+	font-family: helvetica;
+
+}
+
+main 	{
+	margin: 0px;
+	line-height: 2em;
+}
+
+h1	{
+	font-size: 5vw;
+	font-family: Cookie, cursive;
+	letter-spacing: .5em;
+
+}
+
+h2	{
+	font-size: 2.75vw;
+	font-family: Amatic SC, cursive;
+	letter-spacing: .75em;
+	text-align: center;
+	margin: 5px 10px 5px 40px;	
+	line-height: 2em;
+}
+
+h4	{
+	font-size: 2em;
+	color: #cfb53b;
+	font-family: Amatic SC, cursive;
+	margin: 2em auto;
+}
+
+nav a 	{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px 10px 5px 20px; 
+	background-color: #00165A;
+}
+
+a 	{
+	color: #cfb53b;
+	text-decoration: none;
+	margin: 2em auto;
+}
+
+img		{	
+	width: 100%;
+}
+
+p {
+	font-size: 2em;
+	line-height: 1.5em;
+	margin: 2em;
+	text-align: center;
+}
+
+hr 	{
+	border: none;
+	height: .25em;
+	background-color: #00165A;
+	width: 6em;
+	margin: 2em auto;
+}
+
+footer	{
+	padding: 50px;
+	background-color: #00165A;
+	text-align: center;
+}
+.info	{
+	width: 30%;
+	padding: 1em;
+	background-color: #00165A;
+	margin: 2em auto;
+}
+
+.navlinks	{
+	text-transform: uppercase;
+	letter-spacing: .75em;
+}
+
+
