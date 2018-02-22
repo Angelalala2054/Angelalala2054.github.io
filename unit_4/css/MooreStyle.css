@@ -13,10 +13,9 @@ body	{
 }
 
 header	{
-	background: #5A0016;
 	text-align: center;
 	font-family: helvetica;
-
+	background: rgba(90,0,22,.75);
 }
 
 main 	{
@@ -28,7 +27,6 @@ h1	{
 	font-size: 5vw;
 	font-family: Cookie, cursive;
 	letter-spacing: .5em;
-
 }
 
 h2	{
@@ -51,7 +49,6 @@ nav a 	{
 	color: #ffffff;
 	text-decoration: none;
 	padding: 5px 10px 5px 20px; 
-	background-color: #00165A;
 }
 
 a 	{
@@ -74,7 +71,7 @@ p {
 hr 	{
 	border: none;
 	height: .25em;
-	background-color: #00165A;
+	background-color: #ffffff;
 	width: 6em;
 	margin: 2em auto;
 }
@@ -87,7 +84,7 @@ footer	{
 .info	{
 	width: 30%;
 	padding: 1em;
-	background-color: #00165A;
+	background-color: rgba(0,22,90,.75);
 	margin: 2em auto;
 }
 
@@ -95,5 +92,12 @@ footer	{
 	text-transform: uppercase;
 	letter-spacing: .75em;
 }
+.r	{
+	font-size: 100px;
+	text-transform: uppercase;
+}
 
-
+.test	{
+	font-size: 100px;
+	text-transform: uppercase;
+}
