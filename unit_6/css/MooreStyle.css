@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cookie|Dancing+Script|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Cabin+Sketch');
+*	{
+	padding: 0;
+	margin: 0;
+}
+body	{
+	font-family: Amatic SC, sans-serif;
+	background-image: url("bohemianlace.jpg");
+	background-attachment: fixed;
+	/*background-color: #E8E3D3;*/
+	font-size: 1vw;
+	color: #cfb53b;
+}
+header	{
+	padding: 5px;
+	text-align: center;
+	font-family: Amatic SC; 
+	background: rgba(90,0,22,.75);
+}
+h1	{
+
+	font-size: 5vw;
+	font-family: Alex Brush, cursive;
+	letter-spacing: .25em;
+}
+h2	{
+	font-size: 3vw;
+	font-family: Alex Brush, cursive;
+	letter-spacing: .15em;
+	/*line-height: 2em;*/
+}
+h4	{
+	font-size: 2vw;
+	color: #cfb53b;
+	font-family: Amatic SC, cursive;
+	margin: .5em auto;
+}
+nav a:link	{
+	padding: 5px;
+	font-size: 1.5vw;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	margin: 0 32px;
+}
+
+nav a:visited	{
+	font-size: 1.5vw;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+}
+nav a:hover	{
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 2px;
+}
+nav a:active	{
+
+}
+a 	{
+	/*margin: auto;*/
+	color: #cfb53b;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 3em;
+}
+img		{	
+	width: 100%;
+}
+p {
+	font-family: Amatic SC, cursive;
+	font-size: 1em
+	line-height: 1.5em;
+	margin: 0;
+	text-align: center;
+}
+hr 	{
+	border: none;
+	height: .25em;
+	background-color: #cfb53b;
+	width: 6em;
+	margin: 1em auto;
+}
+footer	{
+	font-family: Amatic SC, sans-serif;
+	background-color: rgba(90,0,22,.75);
+	font-size: 2.5em;
+	padding: 5px;
+	text-align: center;
+	clear: both;
+}
+section	{
+	padding: 10px;
+	font-family: Amatic SC, cursive;
+	background: rgba(0,22,90,.75);
+	font-size: 3em;
+	margin: 2em;
+	text-align: center;
+}
+aside	{
+	border: 1px black solid;
+	padding: 20px;
+}
+article	{
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.info	{
+	width: 12%;
+	padding: 1em;
+	background-color: rgba(0,22,90,.75);
+	margin: .25em;
+	font-size: 2vw;
+	float: left;
+}
+.biginfo	{
+	width: 25%;
+	padding: 1em;
+	background-color: rgba(0,22,90,.75);
+	margin: .25em;
+	font-size: 2vw;
+	float: left;
+}
+.navlinks	{
+	text-transform: uppercase;
+	/*letter-spacing: 8em;*/
+}
+.register	{
+	font-family: Alex Brush, cursive;
+	width: 50%;
+	background-color: rgba(0,22,90,.75);
+	margin: 1em auto;
+	font-size: 3.5vw;
+}
+.left	{
+	float: left;
+	clear: left;
+	width: 25%;
+	border: .5em solid rgba(0,22,90,.75);
+	margin: 1em;
+}
+.right	{
+	float: right;
+	clear: right;
+	width: 25%;
+	border: .5em solid rgba(0,22,90,.75);
+	margin: 1em;
+}
+.top	{
+	clear: both;
+	width: 15em;
+	margin: 4em auto;
+}
+.brideinfo	{
+	width: 30%;
+	padding: .5em;
+	background: rgba(90,0,22,.75);
+	margin: 2em auto;
+	font-size: 2.5vw;
+	line-height: 2em;
+}
+.groominfo	{
+	width: 30%;
+	padding: 1em;
+	background: rgba(0,22,90,.75);
+	margin: 2em auto;
+	font-size: 2.5vw;
+	line-height: 2em;
+}
+.two_column	{
+	border: 1px black solid;
+	padding: 20px;
+}
+.left {
+    background-color: #E8CE6E;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+.right {
+ 	background-color: #E8CE6E;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 25%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.wrapper	{
+	/*margin auto didn't work so I had to do this*/
+    position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 4em auto;
+}
+.map	{
+	width: 50%;
+	padding: 1em;
+	background: rgba(0,22,90,.75);
+	margin: 2em auto;
+	font-size: 2.5vw;
+	line-height: 2em;
+}
+#maplink	{
+	font-family: Alex Brush, cursive;
+	border-bottom: 1px solid;
+	padding: 0;
+}
