@@ -7,39 +7,39 @@
 body	{
 	font-family: Amatic SC, sans-serif;
 	background-image: url("gold.jpeg");
-	background-size: cover;
 	background-attachment: fixed;
-	/*background-color: #E8E3D3;*/
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-size: 1vw;
 	color: #cfb53b;
 }
 header	{
-	padding: 5px;
+	padding: .5em;
 	text-align: center;
 	font-family: Amatic SC; 
 	background: rgba(90,0,22,.75);
 }
 h1	{
 
-	font-size: 5vw;
+	font-size: 5em;
 	font-family: Alex Brush, cursive;
 	letter-spacing: .25em;
 }
 h2	{
-	font-size: 3vw;
+	font-size: 1.5em;
 	font-family: Alex Brush, cursive;
 	letter-spacing: .15em;
 	/*line-height: 2em;*/
 }
 h4	{
-	font-size: 2vw;
+	font-size: 2em;
 	color: #cfb53b;
 	font-family: Amatic SC, cursive;
 	margin: .5em auto;
 }
 nav a:link	{
-	padding: 5px;
-	font-size: 1.5vw;
+	padding: .5em;
+	font-size: 1.5em;
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -48,21 +48,20 @@ nav a:link	{
 }
 
 nav a:visited	{
-	font-size: 1.5vw;
+	font-size: 1.5em;
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: .5em;
 }
 nav a:hover	{
-	border-bottom: 1px solid #ffffff;
-	padding-bottom: 2px;
+	border-bottom: .1em solid #ffffff;
+	padding-bottom: .1em;
 }
 nav a:active	{
 
 }
 a 	{
-	/*margin: auto;*/
 	color: #cfb53b;
 	text-decoration: none;
 	font-size: 1em;
@@ -89,33 +88,24 @@ footer	{
 	font-family: Amatic SC, sans-serif;
 	background-color: rgba(90,0,22,.75);
 	font-size: 1.5em;
-	padding: 5px;
+	padding: .25em;
 	text-align: center;
 	clear: both;
 }
 section	{
-	padding: 10px;
+	/*padding: 1em;*/
 	font-family: Amatic SC, cursive;
 	background: rgba(0,22,90,.75);
-	font-size: 3em;
-	margin: 2em;
+	/*font-size: 3em;
+	margin: 5em auto;*/
 	text-align: center;
 }
-aside	{
-	border: 1px black solid;
-	padding: 20px;
-}
-article	{
-	border: 1px black solid;
-	padding: 20px;
-}
-
 .info	{
 	width: 12%;
 	padding: 1em;
 	background-color: rgba(0,22,90,.75);
 	margin: .25em;
-	font-size: 2vw;
+	font-size: 2em;
 	float: left;
 }
 .biginfo	{
@@ -123,33 +113,43 @@ article	{
 	padding: 1em;
 	background-color: rgba(0,22,90,.75);
 	margin: .25em;
-	font-size: 2vw;
+	font-size: 2em;
 	float: left;
 }
 .navlinks	{
 	text-transform: uppercase;
-	/*letter-spacing: 8em;*/
 }
 .register	{
 	font-family: Alex Brush, cursive;
 	width: 50%;
 	background-color: rgba(0,22,90,.75);
 	margin: 1em auto;
-	font-size: 3.5vw;
+	font-size: 3.5em;
+}
+.registrylinks	{
+	color: #cfb53b;
+	text-decoration: none;
+	font-size: 2em;
+	margin: 3em auto;
+	width: 50%;
 }
 .left	{
 	float: left;
 	clear: left;
 	width: 25%;
-	border: .5em solid rgba(0,22,90,.75);
-	margin: 1em;
+	border: .25em solid black;
+	margin: 3em;
+	padding: 10px;
+	background-color: rgba();
 }
 .right	{
 	float: right;
 	clear: right;
 	width: 25%;
-	border: .5em solid rgba(0,22,90,.75);
-	margin: 1em;
+	border: .25em solid black;
+	margin: 3em;
+	padding: 1em;
+	background-color: rgba();
 }
 .top	{
 	clear: both;
@@ -161,7 +161,7 @@ article	{
 	padding: .5em;
 	background: rgba(90,0,22,.75);
 	margin: 2em auto;
-	font-size: 2.5vw;
+	font-size: 2.5em;
 	line-height: 2em;
 }
 .groominfo	{
@@ -169,28 +169,13 @@ article	{
 	padding: 1em;
 	background: rgba(0,22,90,.75);
 	margin: 2em auto;
-	font-size: 2.5vw;
+	font-size: 2.5em;
 	line-height: 2em;
 }
-.two_column	{
+/*.two_column	{
 	border: 1px black solid;
 	padding: 20px;
-}
-.left {
-    background-color: #E8CE6E;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 25%;
-}
-
-.right {
- 	background-color: #E8CE6E;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 25%;
-}
+}*/
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -200,23 +185,23 @@ article	{
     height: 0;
 }
 .wrapper	{
-	/*margin auto didn't work so I had to do this*/
     position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 4em auto;
+	margin: 1em;
 }
 .map	{
 	width: 50%;
 	padding: 1em;
 	background: rgba(0,22,90,.75);
-	margin: 2em auto;
-	font-size: 2.5vw;
+	margin: 3em auto;
+	font-size: 2.5em;
 	line-height: 2em;
 }
 #maplink	{
 	font-family: Alex Brush, cursive;
-	border-bottom: 1px solid;
-	padding: 0;
+	padding: .5em;
+	border-bottom: .1em white solid;
 }
+
