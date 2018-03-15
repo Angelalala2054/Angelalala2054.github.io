@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cookie|Dancing+Script|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Cabin+Sketch');
+*	{
+	padding: 0;
+	margin: 0;
+}
+body	{
+	font-family: Amatic SC, sans-serif;
+	font-weight: bold;
+	background-image: url("practice3.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	color: #cfb53b;
+}
+header	{
+	padding: .5em;
+	text-align: center;
+	font-family: Amatic SC; 
+	background: rgba(255,255,255,.75);
+}
+h1	{
+	font-size: 4em;
+	font-family: Cookie, cursive;
+	letter-spacing: .25em;
+}
+h2	{
+	padding: .75em 0 0;
+	font-size: 1em;
+	font-family: Cookie, cursive;
+	letter-spacing: .15em;
+}
+h4	{
+	font-size: 1.75em;
+	color: #cfb53b;
+	font-family: Amatic SC, cursive;
+	margin: .5em auto;
+}
+nav a:link	{
+	padding: .5em;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .35em;
+	margin: 0 1em;
+}
+
+nav a:visited	{
+		}
+nav a:hover	{
+	border-bottom: .1em solid #cfb53b;
+	padding-bottom: .1em;
+}
+nav a:active	{
+
+}
+a 	{
+	color: #cfb53b;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 3em;
+}
+img		{	
+	width: 100%;
+	border: .25em solid #cfb53b;
+}
+p {
+	font-family: Amatic SC, cursive;
+	font-size: 1em
+	line-height: 1.5em;
+	margin: 0;
+	text-align: center;
+}
+hr 	{
+	border: none;
+	height: .25em;
+	background-color: #cfb53b;
+	width: 3em;
+	margin: 1em auto;
+}
+footer	{
+	font-family: Amatic SC, sans-serif;
+	font-size: 1.5em;
+	padding: .25em;
+	text-align: center;
+	clear: both;
+}
+section	{
+	font-family: Amatic SC, cursive;
+	background: rgba(255,255,255,.75);
+	text-align: center;
+}
+label	{
+	padding: .5em;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: .35em;
+	margin: 0 1em;
+	display: none;
+	text-align: center;
+	font-family: Amatic SC; 
+	background: rgba(255,255,255,.65);
+}
+.info	{
+	width: 11%;
+	padding: 1em;
+	background-color: rgba(255,255,255,.75);
+	margin: .25em ;
+	font-size: 2em;
+	float: left;
+}
+.biginfo	{
+	width: 24%;
+	padding: 1em;
+	background-color: rgba(255,255,255,.75);
+	margin: .25em;
+	font-size: 2em;
+	float: left;
+}
+.navlinks	{
+	text-transform: uppercase;
+}
+.register	{
+	font-family: Alex Brush, cursive;
+	width: 50%;
+	background-color: rgba(255,255,255,.75);
+	margin: 1em auto;
+	padding: .5em;
+	font-size: 2.5em;
+}
+.registrylinks	{
+	color: #cfb53b;
+	text-decoration: none;
+	font-size: 2em;
+	margin: 3em auto;
+	width: 50%;
+}
+.left	{
+	float: left;
+	clear: left;
+	width: 40%;
+	margin: 4em;
+	padding: 1em 0;
+}
+.right	{
+	float: right;
+	clear: right;
+	width: 40%;
+	margin: 4em;
+	padding: 1em 0;
+}
+.top	{
+	clear: both;
+	width: 15em;
+	margin: 4em auto;
+}
+.brideinfo	{
+	width: 88%;
+	padding: 1em;
+	background: rgba(255,255,255,.75);
+	margin: .5em auto;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+.groominfo	{
+	width: 88%;
+	padding: 1em;
+	background: rgba(255,255,255,.75);
+	margin: .5em auto;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+.two_column	{
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.wrapper	{
+    position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 1em;
+}
+#container	{
+	width: 100%;
+}
+.map	{
+	width: 70%;
+	padding: 1em;
+	background: rgba(255,255,255,.75);
+	margin: 3em auto;
+	font-size: 2.5em;
+	line-height: 2em;
+}
+#maplink	{
+	font-family: Alex Brush, cursive;
+	padding: .5em;
+	border-bottom: .1em white solid;
+}
+#maplink:hover	{
+	border-bottom: .1em solid #cfb53b;
+	padding-bottom: .1em;
+}
+#toggle	{
+	display: none;
+}
+
+
+@media screen and (max-width: 1620px)	{
+	
+	.info	{
+		width: 10%;
+		font-size: 1.5em;
+	}	
+	.biginfo	{
+		width: 23%;
+		font-size: 1.5em;
+	}
+	.left	{
+		width: 38%;
+	}
+	.right	{
+		width: 38%;
+	}
+}
+@media screen and (max-width: 1355px)	{
+	.left	{
+		width: 35%;
+	}
+	.right	{
+		width: 35%;
+	}
+
+}
+@media screen and (max-width: 1280px)	{
+	body	{
+		font-size: 18px;
+	}
+.info	{
+	width: 42%;
+}
+.biginfo	{
+	width: 91%;
+}
+}
+@media screen and (max-width: 1179px)	{
+	.info	{
+		width: 42%;
+	}
+}
+
+
+@media screen and (max-width: 1134px)	{
+
+}
+@media screen and (max-width: 1000px)	{
+	
+	.left	{
+		width: 88%;
+		float: none;
+		margin: auto;
+	}
+	.right	{
+		width: 88%;
+		float:none;
+		margin: auto;
+	}
+nav 	{
+	display: none;
+}
+nav a {
+	display: block;
+}
+label	{
+	display: block;
+}
+
+a h2	{
+		padding: 0;
+}
+
+#toggle:checked	+ nav  	{
+	display: block;
+}
+}
+@media screen and (max-width: 900px)	{
+
+.info 	  {
+	width: 94%;
+	font-size: 2em;	}
+.biginfo	{
+	width: 94%;
+	font-size: 2em;
+}
+a h2	{
+	padding: 0;
+}	
+hr 	{
+	display: none;}
+}
+
+@media screen and (max-width: 780px)	{
+	h1	{
+		font-size: 3em;
+	}
+
+.info	{
+		width: 94%;
+}
+.biginfo	{
+		width: 94%;
+}
+
+}

@@ -9,24 +9,23 @@ body	{
 	background-image: url("gold.jpeg");
 	background-size: cover;
 	background-attachment: fixed;
-	/*background-color: #E8E3D3;*/
-	font-size: 1vw;
+	font-size: 18px;
 	color: #cfb53b;
 }
 header	{
-	padding: 5px;
+	padding: .1em;
 	text-align: center;
 	font-family: Amatic SC; 
 	background: rgba(90,0,22,.75);
 }
 h1	{
 
-	font-size: 5vw;
+	font-size: 5em;
 	font-family: Alex Brush, cursive;
 	letter-spacing: .25em;
 }
 h2	{
-	font-size: 3vw;
+	font-size: 3em;
 	font-family: Alex Brush, cursive;
 	letter-spacing: .15em;
 	/*line-height: 2em;*/
