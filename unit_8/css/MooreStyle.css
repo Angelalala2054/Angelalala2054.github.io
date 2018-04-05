@@ -6,64 +6,92 @@
 }
 body	{
 	font-family: Amatic SC, sans-serif;
-	font-weight: bold;
-	background-image: url("practice3.jpg");
+	background-image: url("wedding.jpeg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-size: 20px;
-	color: #cfb53b;
+	color: #621D30;
+	letter-spacing: .07em;
 }
 header	{
 	padding: .5em;
 	text-align: center;
 	font-family: Amatic SC; 
-	background: rgba(255,255,255,.75);
+	background: rgba(255,255,255,.65);
 }
 h1	{
 	font-size: 4em;
 	font-family: Cookie, cursive;
-	letter-spacing: .25em;
+	letter-spacing: .08em;
 }
 h2	{
-	padding: .75em 0 0;
+	color: #621D30;
+	padding: .1em 0 0;
 	font-size: 1em;
 	font-family: Cookie, cursive;
-	letter-spacing: .15em;
+	letter-spacing: .08em;
+}
+h3	{
+	font-size: 2em;
+	font-family: Cookie, cursive;
+	letter-spacing: .08em;
+	text-align: left;
+	clear: both;
+}
+h3 + p 	{
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
 }
 h4	{
 	font-size: 1.75em;
-	color: #cfb53b;
 	font-family: Amatic SC, cursive;
 	margin: .5em auto;
 }
+h4 + p 	{
+	font-size: 1.5em;
+}
+h5	{
+	font-size: 2em
+}
 nav a:link	{
-	padding: .5em;
+	color: #621D30;
+	padding-bottom: .25em;
 	font-size: 1.5em;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: .35em;
-	margin: 0 1em;
+	letter-spacing: .25em;
+	margin: 1.5em;
 }
 
 nav a:visited	{
+		color: #621D30;
 		}
 nav a:hover	{
-	border-bottom: .1em solid #cfb53b;
+	border-bottom: .1em solid #621D30;
 	padding-bottom: .1em;
 }
 nav a:active	{
-
+	border-bottom: .1em solid #621D30;
+	padding-bottom: .1em;
 }
 a 	{
-	color: #cfb53b;
+	color: #621D30;
 	text-decoration: none;
 	font-size: 1em;
 	margin: 3em;
 }
+a h2:link	{
+	text-decoration: none;
+	font-size: 1em;
+}
+a h2:hover	{
+	font-size: 1.25em;
+}
 img		{	
 	width: 100%;
-	border: .25em solid #cfb53b;
+	border: .15em solid #621D30;
 }
 p {
 	font-family: Amatic SC, cursive;
@@ -74,38 +102,44 @@ p {
 }
 hr 	{
 	border: none;
-	height: .25em;
-	background-color: #cfb53b;
+	height: .15em;
+	background-color: #621D30;
 	width: 3em;
 	margin: 1em auto;
 }
 footer	{
 	font-family: Amatic SC, sans-serif;
 	font-size: 1.5em;
+	color: #621D30;
 	padding: .25em;
+	margin: 2em;
 	text-align: center;
 	clear: both;
 }
 section	{
 	font-family: Amatic SC, cursive;
-	background: rgba(255,255,255,.75);
+	background: rgba(255,255,255,.65);
 	text-align: center;
 }
 label	{
 	padding: .5em;
 	font-size: 1.3em;
+	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: .35em;
+	letter-spacing: .25em;
 	margin: 0 1em;
 	display: none;
 	text-align: center;
 	font-family: Amatic SC; 
 	background: rgba(255,255,255,.65);
 }
+span 	{
+	font-size: 1.5em;
+}
 .info	{
 	width: 11%;
 	padding: 1em;
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(255,255,255,.65);
 	margin: .25em ;
 	font-size: 2em;
 	float: left;
@@ -113,7 +147,7 @@ label	{
 .biginfo	{
 	width: 24%;
 	padding: 1em;
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(255,255,255,.65);
 	margin: .25em;
 	font-size: 2em;
 	float: left;
@@ -122,54 +156,77 @@ label	{
 	text-transform: uppercase;
 }
 .register	{
-	font-family: Alex Brush, cursive;
-	width: 50%;
-	background-color: rgba(255,255,255,.75);
+	font-family: Cookie, cursive;
+	width: 60%;
+	background-color: rgba(255,255,255,.65);
 	margin: 1em auto;
-	padding: .5em;
-	font-size: 2.5em;
+	padding: 2em .5em;
+	font-size: 2em;
+	line-height: 2em;
+}
+.registrylinks > a:link	{
+	font-weight: bold;
+	color: #621D30;
+}
+.registrylinks > a:visited	{
+	color: #621D30;
+}
+.registrylinks > a:hover	{
+	border-bottom: .05em solid #621D30;
+	padding-bottom: .1em;
+}
+.registrylinks > a:active	{
+	background: #621D30;
 }
 .registrylinks	{
-	color: #cfb53b;
 	text-decoration: none;
-	font-size: 2em;
-	margin: 3em auto;
-	width: 50%;
+	font-size: 1.7em;
+	margin: 1em auto;
+	padding: .5em;
+	width: 60%;
 }
 .left	{
 	float: left;
 	clear: left;
-	width: 40%;
-	margin: 4em;
-	padding: 1em 0;
+	width: 30%;
+	margin: 1em 0 4em 12em;
+	padding: 0;
 }
 .right	{
 	float: right;
 	clear: right;
-	width: 40%;
-	margin: 4em;
-	padding: 1em 0;
+	width: 30%;
+	margin: 1em 12em 4em 0;
+	padding:0;
+}
+.right > img 	{
+	padding: 2em;
+	border: none;
+}
+.left > img 	{
+	padding: 2em;
+	border: none;
 }
 .top	{
+	font-size: 2em;
+	color: #621D30;
 	clear: both;
-	width: 15em;
-	margin: 4em auto;
+	width: 12em;
+	margin: 3em auto;
 }
 .brideinfo	{
-	width: 88%;
+	width: 60%;
 	padding: 1em;
-	background: rgba(255,255,255,.75);
+	background: rgba(255,255,255,.65);
 	margin: .5em auto;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	line-height: 1.5em;
-}
-.groominfo	{
-	width: 88%;
-	padding: 1em;
-	background: rgba(255,255,255,.75);
-	margin: .5em auto;
-	font-size: 1.5em;
-	line-height: 1.5em;
+	letter-spacing: .07em;
+	}
+.brideinfo p 	{
+	width: 65%;
+	margin: auto;
+	font-family: Cookie, cursive;
 }
 .two_column	{
 }
@@ -192,29 +249,48 @@ label	{
 	width: 100%;
 }
 .map	{
-	width: 70%;
+	width: 60%;
 	padding: 1em;
-	background: rgba(255,255,255,.75);
+	background: rgba(255,255,255,.65);
 	margin: 3em auto;
-	font-size: 2.5em;
+	font-size: 2em;
 	line-height: 2em;
 }
+.map p 	{
+	font-family: Cookie, cursive;
+}
 #maplink	{
-	font-family: Alex Brush, cursive;
 	padding: .5em;
-	border-bottom: .1em white solid;
+	margin: auto;
 }
 #maplink:hover	{
-	border-bottom: .1em solid #cfb53b;
-	padding-bottom: .1em;
+	font-style: italic;
+}
+.eventdetails	{
+	font-family: Cookie, cursive;
+	padding: 3%;
+	width: 80%;
+	background-color: rgba(255,255,255,.65);
+	margin: 2em auto;
+	line-height: 4em;
+}
+.party	{
+	width: 20%;
+	padding: .5em;
+	margin: .5em;
+	background-color: rgba(255,255,255,.65);
+	line-height: 2em;
+	min-height: 500px;
+	float: left;
+	}
+.party h4 	{
+	font-family: Cookie,cursive;
 }
 #toggle	{
 	display: none;
 }
 
-
-@media screen and (max-width: 1620px)	{
-	
+@media screen and (max-width: 1620px)	{	
 	.info	{
 		width: 10%;
 		font-size: 1.5em;
@@ -223,21 +299,14 @@ label	{
 		width: 23%;
 		font-size: 1.5em;
 	}
-	.left	{
-		width: 38%;
 	}
-	.right	{
-		width: 38%;
-	}
-}
 @media screen and (max-width: 1355px)	{
-	.left	{
-		width: 35%;
-	}
-	.right	{
-		width: 35%;
-	}
-
+.left	{
+	margin: 1em 0 0 9em;
+}
+.right	{
+	margin: 1em 9em 0 0;
+}
 }
 @media screen and (max-width: 1280px)	{
 	body	{
@@ -249,39 +318,53 @@ label	{
 .biginfo	{
 	width: 91%;
 }
+.party	{
+	width: 42%;
+}
 }
 @media screen and (max-width: 1179px)	{
 	.info	{
 		width: 42%;
 	}
 }
-
-
-@media screen and (max-width: 1134px)	{
-
+@media screen and (max-width: 1050px)	{
+.registrylinks	{
+	font-size: 1.3em;
+}
 }
 @media screen and (max-width: 1000px)	{
-	
-	.left	{
+.map 	{
+	font-size: 2em;
+}
+.left	{
 		width: 88%;
 		float: none;
 		margin: auto;
-	}
-	.right	{
+}
+.right	{
 		width: 88%;
 		float:none;
 		margin: auto;
-	}
+}
+.two_column	{
+	margin: 0em 3em 0em 0em;
+}
+.brideinfo p 	{
+	width: 80%;
+}
 nav 	{
 	display: none;
 }
 nav a {
 	display: block;
 }
+nav a:hover	{
+	border-bottom: none;
+	text-decoration: underline;
+}
 label	{
 	display: block;
 }
-
 a h2	{
 		padding: 0;
 }
@@ -291,31 +374,76 @@ a h2	{
 }
 }
 @media screen and (max-width: 900px)	{
-
+hr 	{
+	display: none;
+}
 .info 	  {
 	width: 94%;
-	font-size: 2em;	}
+	font-size: 2em;	
+}
 .biginfo	{
 	width: 94%;
 	font-size: 2em;
 }
-a h2	{
-	padding: 0;
-}	
-hr 	{
-	display: none;}
+.registrylinks a 	{
+	display: block;
+	margin: .5em auto;
+	padding: 1em;
 }
-
+.registrylinks > a:hover	{
+	border-bottom: none;
+	font-size: 2em;
+}
+}
 @media screen and (max-width: 780px)	{
-	h1	{
+body	{
+	font-size: 17px;
+}
+h1	{
 		font-size: 3em;
 	}
-
 .info	{
 		width: 94%;
 }
 .biginfo	{
 		width: 94%;
 }
+.map 	{
+	font-size: 1.5em;
+}
 
+}
+@media screen and (max-width: 775px)	{
+.party	{
+	width: 900%;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.wrapper	{
+	margin: 0;
+	padding: 0;
+}
+.top	{
+	font-size: 1.5em;
+}
+.brideinfo p 	{
+	width: 80%;
+}
+}
+@media screen and (max-width: 535px) {
+.eventdetails > h5	{
+	font-size: 1.4em;
+}
+.map 	{
+	font-size: 1.2em;
+}
+}
+@media screen and (max-width: 480px)	{
+.map 	{
+	font-size: 1em;
+}
+body	{
+	font-size: 16px;
+}
 }
