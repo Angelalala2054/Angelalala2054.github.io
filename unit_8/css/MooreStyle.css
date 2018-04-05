@@ -9,7 +9,7 @@ body	{
 	background-image: url("wedding.jpeg");
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	font-size: 20px;
 	color: #621D30;
 	letter-spacing: .07em;
