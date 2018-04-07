@@ -396,9 +396,9 @@ hr 	{
 }
 }
 @media screen and (max-width: 780px)	{
-body	{
+/*body	{
 	font-size: 17px;
-}
+}*/
 h1	{
 		font-size: 3em;
 	}
@@ -411,11 +411,10 @@ h1	{
 .map 	{
 	font-size: 1.5em;
 }
-
 }
 @media screen and (max-width: 775px)	{
 .party	{
-	width: 900%;
+	width: 90%;
 	padding: 0;
 	margin: 0;
 	float: left;
@@ -439,11 +438,11 @@ h1	{
 	font-size: 1.2em;
 }
 }
-/*@media screen and (max-width: 480px)	{
+@media screen and (max-width: 480px)	{
 .map 	{
 	font-size: 1em;
 }
 body	{
 	font-size: 16px;
 }
-}*/
+}
